@@ -12,16 +12,16 @@ export default function Navbar() {
             <div className="flex flex-row gap-3 items-center">
                 <ul className='list-none flex flex-row gap-4 items-center'>
                     <li>
-                        <Link href="/">Home</Link>
+                        <Link href="/" className='hover:underline hover:font-bold hover:text-green-500 transition-all delay-200'>Home</Link>
                     </li>
                     <li>
-                        <Link href="#about">About</Link>
+                        <Link href="#about" className='hover:underline hover:font-bold hover:text-green-500 transition-all delay-200'>About</Link>
                     </li>
                     <li>
-                        <Link href="#steps">How it Works</Link>
+                        <Link href="#steps" className='hover:underline hover:font-bold hover:text-green-500 transition-all delay-200'>How it Works</Link>
                     </li>
                     <li>
-                        <Link href="#earlyaccess">Early Access</Link>
+                        <Link href="#earlyaccess" className='hover:underline hover:font-bold hover:text-green-500 transition-all delay-200'>Early Access</Link>
                     </li>
                 </ul>
                 <ul>
