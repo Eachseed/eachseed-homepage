@@ -65,7 +65,6 @@ export default function EarlySignUp() {
             setSuccess(true)
             form.reset()
         } catch (error: any) {
-            console.log("Something went wrong, ", error.message)
             setErr(true)
         } finally {
             setLoading(false)
