@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="container mx-auto px-5">
       <section id="hero" className="py-14 text-center">
-        <h1 className={clsx(headingFont.className, 'text-7xl')}>Fuel your <span className="text-primary">sustainable</span> vision with crowdfunding</h1>
+        <h1 className={clsx(headingFont.className, 'text-4xl md:text-7xl')}>Fuel your <span className="text-primary">sustainable</span> vision with crowdfunding</h1>
         <p className="text-lg max-w-4xl mx-auto mt-3">Join a community that believes in funding a better future. Launch your sustainable project and connect with mission-driven backers.</p>
         <div className="grid grid-cols-1 gap-4 mt-10 text-start lg:grid-cols-2">
 
