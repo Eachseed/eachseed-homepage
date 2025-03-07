@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { buttonVariants } from './ui/button'
+import { ArrowDown } from 'lucide-react'
 
 export default function Navbar() {
   return (
@@ -10,26 +11,12 @@ export default function Navbar() {
 
             <Image src='/logo.svg' width={125} height={100} alt='Eachseed logo' />
             <div className="flex flex-row gap-3 items-center">
-                <ul className='list-none flex flex-row gap-4 items-center'>
-                    <li>
-                        <Link href="/" className='hover:underline hover:font-bold hover:text-green-500 transition-all delay-200'>Home</Link>
-                    </li>
-                    <li>
-                        <Link href="#about" className='hover:underline hover:font-bold hover:text-green-500 transition-all delay-200'>About</Link>
-                    </li>
-                    <li>
-                        <Link href="#steps" className='hover:underline hover:font-bold hover:text-green-500 transition-all delay-200'>How it Works</Link>
-                    </li>
-                    <li>
-                        <Link href="#earlyaccess" className='hover:underline hover:font-bold hover:text-green-500 transition-all delay-200'>Early Access</Link>
-                    </li>
-                </ul>
                 <ul>
                     <li>
-                        <Link href="" className={buttonVariants({
+                        <Link href="#earlyaccess" className={buttonVariants({
                             variant: 'default',
                             size: 'lg'
-                        })}>Get early access</Link>
+                        })}>Early Access <ArrowDown/></Link>
                     </li>
                 </ul>
             </div>
