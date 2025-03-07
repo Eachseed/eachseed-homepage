@@ -64,7 +64,8 @@ export default function EarlySignUp() {
             await graphQLClient.request(mutation, variables)
             setSuccess(true)
             form.reset()
-        } catch (error: any) {
+        } catch (error) {
+            console.log(error)
             setErr(true)
         } finally {
             setLoading(false)

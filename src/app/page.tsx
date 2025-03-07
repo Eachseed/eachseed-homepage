@@ -1,7 +1,6 @@
 import EarlySignUp from "@/components/early-sign-up";
 import { headingFont } from "@/lib/constants/fonts";
 import clsx from "clsx";
-import Image from "next/image";
 
 export default function Home() {
   return (
