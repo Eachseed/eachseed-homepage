@@ -21,7 +21,9 @@ export default function RootLayout({
         className={`${bodyFont.className} antialiased text-lg`}
       >
         <Navbar />
+        <div className="container mx-auto px-3">
         {children}
+        </div>
         <Footer />
       </body>
     </html>
