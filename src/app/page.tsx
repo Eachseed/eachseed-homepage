@@ -30,15 +30,16 @@ export default function Home() {
           </p>
           <ul className="list-none italic">
             <li>1️⃣<span className="font-bold">Sign Up & Create Your Campaign</span> – Tell your story and set funding goals.</li>
-            <li>2️⃣<span className="font-bold">Market & Get Exposure</span> – Promote your campaign while we help attract corporate investors.</li>
-            <li>3️⃣<span className="font-bold">Hit Your Goal & Deliver</span> – Provide updates on your milestones to keep backers engaged.</li>
-            <li>4️⃣<span className="font-bold">Choose Your Plan:</span>
+            <li>2️⃣<span className="font-bold">Choose Your Plan:</span>
               <ul className="list-none pl-3 text-md">
                 <li>🔹<span className="font-bold">Standard:</span> 5% fee on successful campaigns, risk-free.</li>
                 <li>🔹<span className="font-bold">Pro:</span> $30 upfront + 7% success fee, includes SEO & extra training.</li>
                 <li>🔹<span className="font-bold">Premium:</span> $50 upfront + 7.5% success fee, with premium support.</li>
               </ul>
             </li>
+            <li>3️⃣<span className="font-bold">Market & Get Exposure</span> – Promote your campaign while we help attract corporate investors.</li>
+            <li>4️⃣<span className="font-bold">Hit Your Goal & Deliver</span> – Provide updates on your milestones to keep backers engaged.</li>
+            
             <li>💡<span className="font-bold">Risk-Free for Backers & Founders</span> – Unsuccessful campaigns are fully refunded to backers.</li>
           </ul>
           </div>
